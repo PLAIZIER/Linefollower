@@ -14,21 +14,22 @@ debug [on/off]
 start  s
 stop  s
 set cycle [µs]  
-set power [0..255]  
-set diff [0..1]  
-set kp [0..]  
-set ki [0..]  
-set kd [0..]  
-calibrate black  
-calibrate white  
+set power [0..255]  b 
+set diff [0..1]  d
+set kp [0..]  p
+set ki [0..]  i
+set kd [0..]  d
+calibrate black  c 
+calibrate white  c
 
 ### kalibratie
 uitleg kalibratie  
-Tijdens de kalibratie dient de roboot de witte en zwarte lijnen te zien van hier uit kan hij dan de sensorwaaren lezen en kijken wat het verschil is tussen wit & zwart
+Tijdens de kalibratie dient de robot de witte en zwarte lijnen te zien van hier uit kan hij dan de sensorwaaren lezen en kijken wat het verschil is tussen wit & zwart. door het commanda "c" in te voeren zal de robot dit doen
 
 ### settings
-De robot rijdt stabiel met volgende parameters:  
+De robot rijdt stabiel met volgende parameters: 
+b op max( 255), p op 15.000, i op 0.000 en d op 7.000
 
 ### start/stop button
 uitleg locatie + werking start/stop button
-een start stop button zit in de smartphone geintregreerd
+een start stop button zit in de smartphone geintregreerd. door het commanda s in te voeren zal de robot stoppen of starten
