@@ -7,19 +7,19 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP 32 WROOM
 
-motors: 
+motors: DC-tandwielmotor 6V
 
-h-bridge:
+h-bridge: DRV8833
 
-sensors:
+sensors: QTR-8A
 
-batteries:
+batteries: 18650  3.7V
 
-wireless communication:
+wireless communication: ingebouwd in ESP
 
-distance sensor - motors:
+distance sensor - motors: 
 
 weight:
 
